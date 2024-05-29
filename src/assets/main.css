@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Salsa';
+  src: url('../assets/Salsa-Regular.ttf');
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+
+body {
+  font-family: 'Salsa' , sans-serif;
+  font-weight: 400;
+}
